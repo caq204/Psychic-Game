@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Psychic Game</title>
+    <style>
+        background{ data:image/jpeg;base64,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};
+       </style>
+    </head>
+<body>
+        <h2>Guess which letter the computer picked, you have 10 tries!</h2>
+        <br>
+        <br>
+        <h4>User</h4>
+        <p id="user"></p>
+        <h4>Computer</h4>
+        <p id="computer"></p>
+        <h3>Results</h3>
+        <p id="p1"></p>
+        <h3>Attempts</h3>
+        <p id="attempts"></p>
+        <h4>Total Wins</h4>
+        <p id="win"></p>
+        <h4>Total Losses</h4>
+        <p id="loss"></p>
+        
+    
+    <script>
+    var WinCounter = 0;
+    var AttemptsCounter = 0;
+    var LossCounter = 0;
+      document.onkeyup = function(event) {
+        var userguess = event.key.toLowerCase();
+        document.getElementById("user").innerHTML = userguess;
+            var computerChoice = Math.floor((Math.random() * 26) + 1);
+    if (computerChoice <= 1) {
+            computerChoice = "a";
+        } else if(computerChoice <= 2) {
+            computerChoice = "b";
+        } else if(computerChoice <= 3) {
+            computerChoice = "c";
+        } else if(computerChoice <= 4) {
+            computerChoice = "d";
+        } else if(computerChoice <= 5) {
+            computerChoice = "e";
+        } else if(computerChoice <= 6) {
+            computerChoice = "f";
+        } else if(computerChoice <= 7) {
+            computerChoice = "g";
+        } else if(computerChoice <= 8) {
+            computerChoice = "h";
+        } else if(computerChoice <= 9) {
+            computerChoice = "i";
+        } else if(computerChoice <= 10) {
+            computerChoice = "j";
+        } else if(computerChoice <= 11) {
+            computerChoice = "k";
+        } else if(computerChoice <= 12) {
+            computerChoice = "l";
+        } else if(computerChoice <= 13) {
+            computerChoice = "m";
+        } else if(computerChoice <= 14) {
+            computerChoice = "n";
+        } else if(computerChoice <= 15) {
+            computerChoice = "o";
+        } else if(computerChoice <= 16) {
+            computerChoice = "p";
+        } else if(computerChoice <= 17) {
+            computerChoice = "q";
+        } else if(computerChoice <= 18) {
+            computerChoice = "r";
+        } else if(computerChoice <= 19) {
+            computerChoice = "s";
+        } else if(computerChoice <= 20) {
+            computerChoice = "t";        
+        } else if(computerChoice <= 21) {
+            computerChoice = "u";
+        } else if(computerChoice <= 22) {
+            computerChoice = "v";
+        } else if(computerChoice <= 23) {
+            computerChoice = "w";
+        } else if(computerChoice <= 24) {
+            computerChoice = "x";
+        } else if(computerChoice <= 25) {
+            computerChoice = "y";
+        } else {
+            computerChoice = "z";
+        }
+        document.getElementById("computer").innerHTML = computerChoice;
+        var compare = function(choice1,choice2) {
+            if (choice1 === choice2) {
+                document.getElementById("p1").innerHTML = "You Win!";
+                WinCounter++
+                document.getElementById("win").innerHTML = WinCounter;
+                AttemptsCounter=0;
+            }
+            else {
+                AttemptsCounter++
+                document.getElementById("attempts").innerHTML = AttemptsCounter;
+                document.getElementById("p1").innerHTML = "Guess Again!";
+                }
+            }
+            var results = compare(userguess,computerChoice);
+                if(AttemptsCounter>=10){
+                LossCounter++
+                document.getElementById("loss").innerHTML = LossCounter;
+                document.getElementById("p1").innerHTML = "You Lose!";
+                AttemptsCounter=0;
+            }
+           
+        };
+    
+       
+    </script>
+</body>
+</html>
